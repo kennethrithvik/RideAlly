@@ -1,0 +1,9 @@
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\Debug\Rideally.Entities.dll.config
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\Debug\Rideally.Entities.dll
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\Debug\Rideally.Entities.pdb
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\Debug\EntityFramework.dll
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\Debug\EntityFramework.xml
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\obj\Debug\Rideally.Entities.dll
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\obj\Debug\Rideally.Entities.pdb

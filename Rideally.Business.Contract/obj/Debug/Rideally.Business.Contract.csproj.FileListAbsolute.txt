@@ -1,0 +1,7 @@
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Business.Contract\bin\Debug\Rideally.Business.Contract.dll
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Business.Contract\bin\Debug\Rideally.Business.Contract.pdb
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Business.Contract\bin\Debug\Rideally.Entities.dll
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Business.Contract\bin\Debug\Rideally.Entities.pdb
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Business.Contract\obj\Debug\Rideally.Business.Contract.csprojResolveAssemblyReference.cache
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Business.Contract\obj\Debug\Rideally.Business.Contract.dll
+D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Business.Contract\obj\Debug\Rideally.Business.Contract.pdb

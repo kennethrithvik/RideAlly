@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.WebApi.MVC", "Rideally.WebApi.MVC\Rideally.WebApi.MVC.csproj", "{47CC4B66-72B8-40AA-9D18-779A844D70D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{9A78694A-9197-4337-AEDB-F44ECD74BB79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{CF782990-62D9-476E-94EE-3E30BCD227B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess Layer", "DataAccess Layer", "{6B1BB51D-442F-40A2-B271-6384476B3A20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common Layer", "Common Layer", "{C51EC300-619E-4B0B-BB6E-E23E843485C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.Business.Contract", "Rideally.Business.Contract\Rideally.Business.Contract.csproj", "{A4901E9B-BC03-4C9E-9F5B-FA981BDAC606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.Business.Impementation", "Rideally.Business.Impementation\Rideally.Business.Impementation.csproj", "{40FCD3A0-3D80-45AC-B1C1-997C6960E86F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.Entities", "Rideally.Entities\Rideally.Entities.csproj", "{7C719686-CA27-41B3-ABF9-85234662ECFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.ErrorLog", "Rideally.ErrorLog\Rideally.ErrorLog.csproj", "{39C81056-DA4B-444B-81E3-64CB73E8D89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.Exceptions", "Rideally.Exceptions\Rideally.Exceptions.csproj", "{D86B6A5F-001E-49AA-BD4D-1DBCB1357D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.Util", "Rideally.Util\Rideally.Util.csproj", "{D8893821-7BF7-487D-9D5E-712E62EF505E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.Data.Repository", "Rideally.Data.Repository\Rideally.Data.Repository.csproj", "{D714B6F5-E44B-4B80-B4F1-02E82E459FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rideally.Data.EFRepository", "Rideally.Data.EFRepository\Rideally.Data.EFRepository.csproj", "{6AFB545D-F86E-4FD2-BF7D-CE6009F585F4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.185:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Rideally.Business.Contract\\Rideally.Business.Contract.csproj
+		SccProjectTopLevelParentUniqueName1 = Rideally.Service.sln
+		SccProjectName1 = Rideally.Business.Contract
+		SccLocalPath1 = Rideally.Business.Contract
+		SccProjectUniqueName2 = Rideally.Business.Impementation\\Rideally.Business.Impementation.csproj
+		SccProjectTopLevelParentUniqueName2 = Rideally.Service.sln
+		SccProjectName2 = Rideally.Business.Impementation
+		SccLocalPath2 = Rideally.Business.Impementation
+		SccProjectUniqueName3 = Rideally.Data.EFRepository\\Rideally.Data.EFRepository.csproj
+		SccProjectTopLevelParentUniqueName3 = Rideally.Service.sln
+		SccProjectName3 = Rideally.Data.EFRepository
+		SccLocalPath3 = Rideally.Data.EFRepository
+		SccProjectUniqueName4 = Rideally.Data.Repository\\Rideally.Data.Repository.csproj
+		SccProjectTopLevelParentUniqueName4 = Rideally.Service.sln
+		SccProjectName4 = Rideally.Data.Repository
+		SccLocalPath4 = Rideally.Data.Repository
+		SccProjectUniqueName5 = Rideally.Entities\\Rideally.Entities.csproj
+		SccProjectTopLevelParentUniqueName5 = Rideally.Service.sln
+		SccProjectName5 = Rideally.Entities
+		SccLocalPath5 = Rideally.Entities
+		SccProjectUniqueName6 = Rideally.ErrorLog\\Rideally.ErrorLog.csproj
+		SccProjectTopLevelParentUniqueName6 = Rideally.Service.sln
+		SccProjectName6 = Rideally.ErrorLog
+		SccLocalPath6 = Rideally.ErrorLog
+		SccProjectUniqueName7 = Rideally.Exceptions\\Rideally.Exceptions.csproj
+		SccProjectTopLevelParentUniqueName7 = Rideally.Service.sln
+		SccProjectName7 = Rideally.Exceptions
+		SccLocalPath7 = Rideally.Exceptions
+		SccProjectUniqueName8 = Rideally.Util\\Rideally.Util.csproj
+		SccProjectTopLevelParentUniqueName8 = Rideally.Service.sln
+		SccProjectName8 = Rideally.Util
+		SccLocalPath8 = Rideally.Util
+		SccProjectUniqueName9 = Rideally.WebApi.MVC\\Rideally.WebApi.MVC.csproj
+		SccProjectTopLevelParentUniqueName9 = Rideally.Service.sln
+		SccProjectName9 = Rideally.WebApi.MVC
+		SccLocalPath9 = Rideally.WebApi.MVC
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47CC4B66-72B8-40AA-9D18-779A844D70D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CC4B66-72B8-40AA-9D18-779A844D70D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CC4B66-72B8-40AA-9D18-779A844D70D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CC4B66-72B8-40AA-9D18-779A844D70D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4901E9B-BC03-4C9E-9F5B-FA981BDAC606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4901E9B-BC03-4C9E-9F5B-FA981BDAC606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4901E9B-BC03-4C9E-9F5B-FA981BDAC606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4901E9B-BC03-4C9E-9F5B-FA981BDAC606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FCD3A0-3D80-45AC-B1C1-997C6960E86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FCD3A0-3D80-45AC-B1C1-997C6960E86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FCD3A0-3D80-45AC-B1C1-997C6960E86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FCD3A0-3D80-45AC-B1C1-997C6960E86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C719686-CA27-41B3-ABF9-85234662ECFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C719686-CA27-41B3-ABF9-85234662ECFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C719686-CA27-41B3-ABF9-85234662ECFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C719686-CA27-41B3-ABF9-85234662ECFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C81056-DA4B-444B-81E3-64CB73E8D89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C81056-DA4B-444B-81E3-64CB73E8D89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C81056-DA4B-444B-81E3-64CB73E8D89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C81056-DA4B-444B-81E3-64CB73E8D89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86B6A5F-001E-49AA-BD4D-1DBCB1357D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86B6A5F-001E-49AA-BD4D-1DBCB1357D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86B6A5F-001E-49AA-BD4D-1DBCB1357D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86B6A5F-001E-49AA-BD4D-1DBCB1357D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8893821-7BF7-487D-9D5E-712E62EF505E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8893821-7BF7-487D-9D5E-712E62EF505E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8893821-7BF7-487D-9D5E-712E62EF505E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8893821-7BF7-487D-9D5E-712E62EF505E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D714B6F5-E44B-4B80-B4F1-02E82E459FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D714B6F5-E44B-4B80-B4F1-02E82E459FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D714B6F5-E44B-4B80-B4F1-02E82E459FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D714B6F5-E44B-4B80-B4F1-02E82E459FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFB545D-F86E-4FD2-BF7D-CE6009F585F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFB545D-F86E-4FD2-BF7D-CE6009F585F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFB545D-F86E-4FD2-BF7D-CE6009F585F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFB545D-F86E-4FD2-BF7D-CE6009F585F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47CC4B66-72B8-40AA-9D18-779A844D70D5} = {9A78694A-9197-4337-AEDB-F44ECD74BB79}
+		{A4901E9B-BC03-4C9E-9F5B-FA981BDAC606} = {CF782990-62D9-476E-94EE-3E30BCD227B0}
+		{40FCD3A0-3D80-45AC-B1C1-997C6960E86F} = {CF782990-62D9-476E-94EE-3E30BCD227B0}
+		{7C719686-CA27-41B3-ABF9-85234662ECFD} = {C51EC300-619E-4B0B-BB6E-E23E843485C8}
+		{39C81056-DA4B-444B-81E3-64CB73E8D89C} = {C51EC300-619E-4B0B-BB6E-E23E843485C8}
+		{D86B6A5F-001E-49AA-BD4D-1DBCB1357D8C} = {C51EC300-619E-4B0B-BB6E-E23E843485C8}
+		{D8893821-7BF7-487D-9D5E-712E62EF505E} = {C51EC300-619E-4B0B-BB6E-E23E843485C8}
+		{D714B6F5-E44B-4B80-B4F1-02E82E459FA9} = {6B1BB51D-442F-40A2-B271-6384476B3A20}
+		{6AFB545D-F86E-4FD2-BF7D-CE6009F585F4} = {6B1BB51D-442F-40A2-B271-6384476B3A20}
+	EndGlobalSection
+EndGlobal
