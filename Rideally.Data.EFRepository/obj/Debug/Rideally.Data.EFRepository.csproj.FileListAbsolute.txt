@@ -16,3 +16,21 @@ D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Data.EFReposit
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Data.EFRepository\obj\Debug\Rideally.Data.EFRepository.csprojResolveAssemblyReference.cache
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Data.EFRepository\obj\Debug\Rideally.Data.EFRepository.dll
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Data.EFRepository\obj\Debug\Rideally.Data.EFRepository.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Data.EFRepository.dll.config
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Data.EFRepository.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Data.EFRepository.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\EntityFramework.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Data.Repository.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Entities.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.ErrorLog.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Exceptions.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Data.Repository.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Entities.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.ErrorLog.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\Rideally.Exceptions.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\EntityFramework.xml
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\obj\Debug\Rideally.Data.EFRepository.csprojResolveAssemblyReference.cache
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\obj\Debug\Rideally.Data.EFRepository.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.EFRepository\obj\Debug\Rideally.Data.EFRepository.pdb

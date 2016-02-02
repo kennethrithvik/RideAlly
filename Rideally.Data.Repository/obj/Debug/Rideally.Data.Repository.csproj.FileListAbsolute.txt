@@ -5,3 +5,10 @@ D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Data.Repositor
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Data.Repository\obj\Debug\Rideally.Data.Repository.csprojResolveAssemblyReference.cache
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Data.Repository\obj\Debug\Rideally.Data.Repository.dll
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Data.Repository\obj\Debug\Rideally.Data.Repository.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.Repository\bin\Debug\Rideally.Data.Repository.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.Repository\bin\Debug\Rideally.Data.Repository.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.Repository\bin\Debug\Rideally.Entities.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.Repository\bin\Debug\Rideally.Entities.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.Repository\obj\Debug\Rideally.Data.Repository.csprojResolveAssemblyReference.cache
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.Repository\obj\Debug\Rideally.Data.Repository.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Data.Repository\obj\Debug\Rideally.Data.Repository.pdb

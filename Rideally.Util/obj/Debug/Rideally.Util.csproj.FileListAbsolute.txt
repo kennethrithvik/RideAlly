@@ -2,3 +2,7 @@ D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Util\bin\Debug
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Util\bin\Debug\Rideally.Util.pdb
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Util\obj\Debug\Rideally.Util.dll
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Util\obj\Debug\Rideally.Util.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Util\bin\Debug\Rideally.Util.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Util\bin\Debug\Rideally.Util.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Util\obj\Debug\Rideally.Util.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Util\obj\Debug\Rideally.Util.pdb

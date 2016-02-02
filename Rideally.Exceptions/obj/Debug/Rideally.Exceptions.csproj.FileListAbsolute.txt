@@ -2,3 +2,7 @@ D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Exceptions\bin
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Exceptions\bin\Debug\Rideally.Exceptions.pdb
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Exceptions\obj\Debug\Rideally.Exceptions.dll
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Exceptions\obj\Debug\Rideally.Exceptions.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Exceptions\bin\Debug\Rideally.Exceptions.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Exceptions\bin\Debug\Rideally.Exceptions.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Exceptions\obj\Debug\Rideally.Exceptions.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Exceptions\obj\Debug\Rideally.Exceptions.pdb

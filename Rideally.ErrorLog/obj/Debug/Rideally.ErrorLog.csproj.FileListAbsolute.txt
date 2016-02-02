@@ -2,3 +2,8 @@ D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.ErrorLog\bin\D
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.ErrorLog\bin\Debug\Rideally.ErrorLog.pdb
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.ErrorLog\obj\Debug\Rideally.ErrorLog.dll
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.ErrorLog\obj\Debug\Rideally.ErrorLog.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.ErrorLog\bin\Debug\Rideally.ErrorLog.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.ErrorLog\bin\Debug\Rideally.ErrorLog.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.ErrorLog\obj\Debug\Rideally.ErrorLog.csprojResolveAssemblyReference.cache
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.ErrorLog\obj\Debug\Rideally.ErrorLog.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.ErrorLog\obj\Debug\Rideally.ErrorLog.pdb

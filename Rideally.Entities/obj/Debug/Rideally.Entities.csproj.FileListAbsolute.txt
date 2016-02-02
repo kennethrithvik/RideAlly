@@ -7,3 +7,13 @@ D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\D
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\bin\Debug\EntityFramework.SqlServer.xml
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\obj\Debug\Rideally.Entities.dll
 D:\CarPoolingProject\Project V1\Service\Rideally.Service\Rideally.Entities\obj\Debug\Rideally.Entities.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\Rideally.Entities.dll.config
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\Rideally.Entities.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\Rideally.Entities.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\EntityFramework.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\EntityFramework.xml
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\obj\Debug\Rideally.Entities.csprojResolveAssemblyReference.cache
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\obj\Debug\Rideally.Entities.dll
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\obj\Debug\Rideally.Entities.pdb
