@@ -53,7 +53,7 @@ namespace Rideally.WebApi.MVC.Controllers
 
             Rideally.Entities.Authentication auth = new Entities.Authentication();
             auth.Login = RegEmp.EmailID;
-            string password=System.Web.Security.Membership.GeneratePassword(8, 0);
+            string password = "password";// System.Web.Security.Membership.GeneratePassword(8, 0);
             auth.Password = Rideally.Util.SaltHash.ComputeHash(password, null, null);
             Rideally.Util.Email.SendMail(RegEmp.EmailID, "RideAlly User Password", "Your password for RideAlly = " + password);
             

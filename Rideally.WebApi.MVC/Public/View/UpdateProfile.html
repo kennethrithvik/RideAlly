@@ -1,0 +1,254 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RideAlly - Share Office Transport with Colleagues</title>
+
+    <meta name="description" content="Design - is a Premium HTML5 Responsive Templeate by Graygrids Team.">
+
+    <meta name="keywords" content="Startup HTML template, Bootstrap Agency theme, html template, charity template, premium html template, one page template">
+
+    <meta name="author" content="GrayGrids">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <!-- Bootstrap  -->
+
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- icon fonts font Awesome -->
+    <link rel="stylesheet" media="screen" href="../assets/fonts/font-awesome/font-awesome.min.css">
+
+    <!-- Custom Styles -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- Responsive Styles -->
+    <link href="../assets/css/responsive.css" rel="stylesheet">
+
+    <!-- Normalize Styles -->
+    <link href="../assets/css/normalize.css" rel="stylesheet">
+
+    <!-- Extras -->
+    <link rel="stylesheet" type="text/css" href="../assets/extras/animate.css">
+    <link rel="stylesheet" type="text/css" href="../assets/extras/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="../assets/extras/owl/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="../assets/extras/owl/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="../assets/extras/owl/owl.transitions.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .upd{
+                margin-top: -120px;
+        }
+        #update {
+            background: #333;
+            background-size: cover;
+            margin-top: 50px;
+        }
+
+            #update .section-title span {
+                color: #0BAFA0;
+            }
+
+            #update .update-form .controls {
+                padding-bottom: 20px;
+            }
+
+                #update .update-form .controls input.update_input {
+                    background-color: #ffffff;
+                    float: left;
+                    border: 1px solid #0BAFA0;
+                    font-size: 14px;
+                    font-weight: 300;
+                    height: 48px;
+                    padding: 0 12px;
+                    width: 88%;
+                }
+
+            #update .update-form textarea {
+                font-size: 14px;
+                background-color: #ffffff;
+                border: 1px solid #0BAFA0;
+                width: 100%;
+                padding: 2% 3%;
+                height: 185px;
+                border-radius: 0px;
+            }
+
+                #update .update-form textarea:focus {
+                    box-shadow: none;
+                }
+
+            #update .update-form .btn {
+                color: #ffffff;
+                font-weight: 300;
+                margin-top: 30px;
+                font-size: 24px;
+                width: 100%;
+                margin: 20px 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Header Section -->
+    <header id="header">
+        <nav class="main-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <i class="fa fa-bars fa-lg"></i>
+                    </button>
+                    <!-- logo here -->
+                    <a href="index.html" class="navbar-brand"><img src="../assets/img/logo.png" alt=""></a>
+                </div>
+
+                <!-- Start Navigation Menu -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right" id="main_navigation_menu">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Notification.html">Notification</a></li>
+                        <li><a href="OfferRide.html">Offer Ride</a></li>
+                        <li><a href="SeekRide.html">Seek Ride</a></li>
+                        <li class="active"><a href="UpdateProfile.html">Update Profile</a></li>
+                        <!--<li><a href="UpdateSchedule.html">Update Schedule</a></li>-->
+                        <li><a href="LogOut.html">Log-Out</a></li>
+                    </ul>
+                </div>
+                <!-- End Navigation Menu -->
+            </div>
+        </nav>
+    </header>
+    <!-- End Header Section -->
+    <!--Update Profile-->
+    <div class="row " >
+        <section id="update">
+            <div class="overlay">
+                <div class="container">
+                    <h1 class="section-title wow fadeIn" data-wow-delay=".2s"> <br /><span>Update </span>Profile</h1>
+                    <div class="row upd">
+                        <div class="update-form" style="margin-left:410px">
+                         
+                                <div class="col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                                    <div class="controls">
+
+                                        <div class="update_input">
+                                            <label id="UpdateEmpId"></label>
+                                        </div>
+                                        <br />
+                                    </div>
+                                    <br /><br />
+                                    <div class="controls">
+
+                                        <input class="update_input" id="UpdateEmpName" type="text" placeholder="Enter Name" required pattern="/^[A-Za-z\s]+$/">
+                                        <br />
+                                    </div>
+                                    <br /><br />
+                                    <div class="controls">
+
+
+                                        <input class="update_input" id="UpdateEmailId" type="text" placeholder="Enter EmailId">
+                                        <br />
+                                    </div>
+                                    <br /><br />
+
+
+                                    <div class="controls">
+
+                                        <input class="update_input" id="UpdateMobId" type="text" placeholder="Enter Mobile Number">
+                                        <br /><br />
+                                    </div>
+                                    <br />
+
+
+                                </div>
+
+                                <div class="col-sm-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                                    <button style="width:307px" id="btnUpdate" value="Update" class="btn btn-common">Update</button>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--End Of Update Profile-->
+    <!-- Footer Section Start -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright text-center">
+                <p>Designed and Developed by RideAlly</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Scroll Top -->
+    <div class="scroll-top" data-spy="affix" data-offset-top="300">
+        <a href="#header"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <!-- Scroll End -->
+    <!-- Include jquery.min.js plugin -->
+    <script src="../JS/jquery-min.js"></script>
+    <!-- Include Bootstrap plugin -->
+
+    <script src="../JS/bootstrap.min.js"></script>
+    <!-- One page Nav plugin -->
+    <script src="../assets/js/jquery.nav.js"></script>
+    <!-- Include Bootstrap plugin -->
+
+    <script src="../JS/owl.carousel.js"></script>
+    <!-- Include wow plugin -->
+
+    <script src="../JS/wow.js"></script>
+    <!-- Include mixitup plugin -->
+
+    <script src="../JS/jquery.mixitup.js"></script>
+    <!-- ScrollTop -->
+
+    <script src="../JS/lightbox.min.js"></script>
+    <!-- Lightbox -->
+
+    <script src="../JS/scroll-top.js"></script>
+    <!-- Smooth Scroll -->
+
+    <script src="../JS/smooth-scroll.js"></script>
+    <!-- preset js -->
+
+    <script src="../JS/style.changer.js"></script>
+    <!-- Modernizr js -->
+
+    <script src="../JS/modernizr-2.8.0.main.js"></script>
+    <!-- Main js -->
+
+    <script src="../JS/main.js"></script>
+
+    <!--Custom scripts-->
+    <script src="../JS/Employee/UpdateProfile.js"></script>
+
+</body>
+</html>

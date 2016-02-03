@@ -14,6 +14,6 @@ D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\Entit
 D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\EntityFramework.SqlServer.dll
 D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\EntityFramework.xml
 D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\bin\Debug\EntityFramework.SqlServer.xml
-D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\obj\Debug\Rideally.Entities.csprojResolveAssemblyReference.cache
 D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\obj\Debug\Rideally.Entities.dll
 D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\obj\Debug\Rideally.Entities.pdb
+D:\VS 2012 Workspace\RideAlly\RideAlly-Service\Rideally.Entities\obj\Debug\Rideally.Entities.csprojResolveAssemblyReference.cache

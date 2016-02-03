@@ -1,0 +1,51 @@
+﻿#riderinfo {
+  background: #333;
+  background-size: cover;
+}
+#riderinfo .section-title{
+    font-size:40px;
+}
+#riderinfo .section-title span {
+  color: #fff;
+}
+#riderinfo .owner_details .controls {
+  padding-bottom: 20px;
+}
+#riderinfo .owner_details .controls label.carowner_info {
+  color: #000;
+  background-color: #ffffff;
+  float: left;
+  border: 1px solid #0BAFA0;
+  font-size: 14px;
+  font-weight: 300;
+  height: 48px;
+  padding:12px;
+  width: 88%;
+}
+#riderinfo .owner_details .controls i {
+  font-size: 18px;
+  color: #0BAFA0;
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #0BAFA0;
+  border-left: none;
+}
+
+#riderinfo .owner_details textarea:focus {
+  box-shadow: none;
+}
+#riderinfo .owner_details .btn {
+  color: #ffffff;
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 24px;
+  width: 30%;
+  margin: 20px 0;
+  margin-left:50px;
+}
+#map{
+   height:300px;
+}
