@@ -1,1 +1,0 @@
-# kennethrithvik.github.io
