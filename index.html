@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RideAlly - Share Office Transport with Colleagues</title>
+
+	<meta name="description" content="Design - is a Premium HTML5 Responsive Templeate by Graygrids Team.">
+
+	<meta name="keywords" content="Startup HTML template, Bootstrap Agency theme, html template, charity template, premium html template, one page template">
+
+	<meta name="author" content="GrayGrids">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+	<!-- Bootstrap  -->
+
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- icon fonts font Awesome -->
+	<link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+		
+	<!-- Custom Styles -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- Responsive Styles -->
+	<link href="assets/css/responsive.css" rel="stylesheet">
+	
+	<!-- Normalize Styles -->
+	<link href="assets/css/normalize.css" rel="stylesheet">
+
+	<!-- Extras -->
+	<link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
+
+	
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+	<body>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- Start Header Section -->
+		<header id="header">
+			<nav class="main-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<i class="fa fa-bars fa-lg"></i>
+						</button>
+						<!-- logo here -->
+						<a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+					</div>
+					
+					<!-- Start Navigation Menu -->
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right" id="main_navigation_menu">
+							<li class="active"><a href="#header">Home</a></li>
+                            
+                            <li><a href="#register">Register</a></li>
+                            <li><a href="#login">Login</a></li>
+							<li><a href="#services">What</a></li>
+							<li><a href="#why-chose">Why</a></li>							
+							<li><a href="#team">Team</a></li>
+							<li><a href="#contact">Contact Us</a></li>
+						</ul>
+					</div>
+					<!-- End Navigation Menu -->
+				</div>
+			</nav>
+		</header>
+		<!-- End Header Section -->
+		
+		<!-- Start Intro Section -->
+		<section id="intro" class="section-intro">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="main-text">
+							<h1 class="wow fadeInUp"><span>Share Ride</span> - With Colleagues</h1>
+							<h2 class="wow fadeInUp" data-wow-delay=".7s">Innovative Vehicle Pooling Solution to Tackle Traffic</h2>
+							<div class="wow fadeInUp" data-wow-delay="1.5s"><a onclick="smoothScr.anim('services')" class="btn btn-border btn-lg"><i class="fa fa-spinner fa-spin"></i> Explore More</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Intro Section -->
+        <!-- Start of Registration Section-->
+
+        <section id="register" >
+            <div class="overlay">
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-lg-5">
+                            <form class="form-login" role="form" id="regform">
+                                <br /><br /><br /><br /><br />
+                                <h2 class="form-login-heading">Sign up</h2><br />
+                                <input type="text" class="form-control" id="RegEmployeeName" placeholder="EmployeeName" required><hr />
+                                <input type="email" class="form-control" id="RegEmail" placeholder="Tesco Email ID (User Name)" required><hr />
+                                <input type="number" class="form-control" id="RegMob" placeholder="Mobile Number" required><hr />
+                                <!--<input placeholder="Date of Birth" class="textbox-n form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" data-ng-model="registration.DOB"><hr />-->
+
+                                <select class="form-control" id="RegGender">
+                                    <option selected="selected" value="">Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select><hr />
+                            </form>
+                        </div>
+                        <div class="col-lg-7">
+                            <br /><br /><br /><br /><br /><br /><br /><br />
+                            <input id="pac-input" class="controlsmap" type="text" placeholder="Search Box">
+                            <label for="map">Select Home Address from Map:-</label><br />
+                            <div id="map"></div>
+                            <hr />
+                            <select class="form-control" id="Regofficeadd" style="width:50%;">
+                                <option selected="selected" value="">
+                                Select Office Address</option>
+
+                            </select>
+                            
+
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+
+                            <button class="btn btn-lg btn-info btn-block" id="regsub" type="button" style="width:100px;float:left">Submit</button>
+                            <br /><br /><br />
+                            <div id="regmsgs" class="alert alert-success">
+                                Success
+                            </div>
+                            <div id="regmsgf" class="alert alert-danger">
+                                Error
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        <!--End of The Registration Section-->
+        <!--Login Section-->
+        <section id="login">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-5">
+                            <form class="form-login" role="form" id="Logform">
+                                <br /><br /><br /><br /><br />
+                                <h2 class="form-login-heading">Login</h2><br />
+                                <input type="email" class="form-control" placeholder="Username (Email Id)" id="LogEmail" required>
+                                <hr /><input type="password" class="form-control" placeholder="Password" id="LogPass" required>
+                                <hr /><button id="LogSub" class="btn btn-lg btn-info btn-block" type="button" style="width:100px;float:left">Login</button>
+                                <br /><br /><br />
+                                <div id="logmsgs" class="alert alert-success">
+                                    Success
+                                </div>
+                                <div id="logmsgf" class="alert alert-danger">
+                                    Error
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of Login Section-->
+
+		<!-- Start Services Section -->
+		<section id="services">
+			<div class="container">
+				<h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>What</span> - Can We Do?</h1>
+				<div class="row">
+					<div class="col-sm-6 col-md-3 wow fadeInUp">
+						<div class="service-box">
+							<div class="content">
+								<div class="icon-wrapper">
+								<i class="fa fa-leaf"></i>
+								</div>
+								<h2>Resource Efficient</h2>
+								<p>Consume the Resources provided by the mother-nature in far effective manner.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay=".2s" data-wow-offset="10">
+						<div class="service-box">
+							<div class="content">
+								<div class="icon-wrapper">
+								<i class="fa fa-heart"></i>
+								</div>
+								<h2>Help Me, Help You</h2>
+								<p> Less Vehicles on road! Effectively Reduce the overall Traffic and Travel time.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay=".4s" data-wow-offset="10">
+						<div class="service-box">
+							<div class="content">
+								<div class="icon-wrapper">
+								<i class="fa fa-child"></i>
+								</div>
+								<h2>Make a Difference</h2>
+								<p>Offer a ride to a colleague , Make a Differece by contributing towards the community</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay=".6s" data-wow-offset="10">
+						<div class="service-box">
+							<div class="content">
+								<div class="icon-wrapper">
+								<i class="fa fa-mobile-phone"></i>
+								</div>
+								<h2>Easy to Share</h2>
+								<p>We simply provide easy and interactive way to share a ride with a colleague.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Services Section-->
+		
+				
+		<!-- Start Why chose us Section -->
+        <section id="why-chose">
+            <div class="container">
+                <h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Why</span> Chose</h1>
+                <div class="row">
+                    <div class="col-md-4 wow fadeInLeft" data-wow-offset="10" data-wow-delay="0.5s">
+                        <div class="content-left">
+                            <div class="box-left">
+                                <span class="icon">
+                                    <i class="fa fa-laptop"></i>
+                                </span>
+                                <div class="content">
+                                    <h4>Environment Friendly</h4>
+                                    <p> Reduce air pollution and traffic congestion, something that benefits all of us! </p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="box-left">
+                                <span class="icon">
+                                    <i class="fa fa-cog"></i>
+                                </span>
+                                <div class="content">
+                                    <h4>Unite Colleagues</h4>
+                                    <p>Provide you with new friendships and company for your commute.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="box-left">
+                                <span class="icon">
+                                    <i class="fa fa-random"></i>
+                                </span>
+                                <div class="content">
+                                    <h4>More Comfort</h4>
+                                    <p>It reduces the stress of your commute and allows you to read, relax, or even work while commuting..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInUp" data-wow-offset="10" data-wow-delay="0.3s">
+                        <div class="showcase-box">
+                            <img src="assets/img/why.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeInRight" data-wow-offset="10" data-wow-delay="0.5s">
+                        <div class="content-right">
+                            <div class="box-right">
+                                <span class="icon">
+                                    <i class="fa fa-umbrella"></i>
+                                </span>
+                                <div class="content">
+                                    <h4>Less Maintenance worry</h4>
+                                    <p>Prolong the life of your vehicle as shared driving puts fewer miles on your own vehicle.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="box-right">
+                                <span class="icon">
+                                    <i class="fa fa-heart"></i>
+                                </span>
+                                <div class="content">
+                                    <h4>Cost Effective</h4>
+                                    <p>It can save you hundreds and even thousands a year as it reduces the costs involved in repetitive travelling</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="box-right">
+                                <span class="icon">
+                                    <i class="fa fa-comments"></i>
+                                </span>
+                                <div class="content">
+                                    <h4>Supports Government</h4>
+                                    <p>Can help in implementing government rules like odd-even scheme to reduce carbon emissions </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<!-- End Why chose us Section  -->
+
+		
+		<!-- Start Team Section -->
+		<section id="team">
+			<div class="container">
+				<h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Our</span> Team</h1>
+				<div class="row">
+
+                    <!-- Arpit -->
+					<div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.2s">
+						<div class="item-square">
+							<div class="face">
+								<!--<img src="assets/img/team-member/team-02.jpg" alt="">-->
+								<div class="overlay"></div>
+							</div>
+							<div class="content">
+								<div class="title">
+									<h3>Arpit Gawande</h3>
+								</div>
+								<div class="text">
+									<!--<p>Sit amet. consectetur adipiscing elit. Aenean consectetur suscipit viverra Morbi non arcu blandit</p>-->
+                                    <p>Graduate Software Engineer</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+                    <!-- Kenneth -->
+					<div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.4s">
+						<div class="item-square">
+							<div class="face">
+								<!--<img src="assets/img/team-member/team-01.jpg" alt="">-->
+								<div class="overlay"></div>
+							</div>
+							<div class="content">
+								<div class="title">
+									<h3>Kenneth Rithvik</h3>
+									
+								</div>
+								<div class="text">
+									<!--<p>Sit amet. consectetur adipiscing elit. Aenean consectetur suscipit viverra Morbi non arcu blandit</p>-->
+                                    <p>Graduate Software Engineer</p>
+								</div>
+								<!--<div class="social-icons">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>-->
+							</div>
+						</div>
+					</div>
+
+                    <!-- Kumuda -->
+					<div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.6s">
+						<div class="item-square">
+							<div class="face">
+								<!--<img src="assets/img/team-member/team-03.jpg" alt="">-->
+								<div class="overlay"></div>
+							</div>
+							<div class="content active">
+								<div class="title">
+									<h3>Kumuda BG</h3>
+									
+								</div>
+								<div class="text">
+									<!--<p>Sit amet. consectetur adipiscing elit. Aenean consectetur suscipit viverra Morbi non arcu blandit</p>-->
+                                    <p>Graduate Software Engineer</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+                    <!-- Vikash -->
+					<div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.8s">
+						<div class="item-square">
+							<div class="face">
+								<!--<img src="assets/img/team-member/team-04.jpg" alt="">-->
+								<div class="overlay"></div>
+							</div>
+							<div class="content">
+								<div class="title">
+									<h3>Vikash Mehta</h3>
+									
+								</div>
+								<div class="text">
+									<!--<p>Sit amet. consectetur adipiscing elit. Aenean consectetur suscipit viverra Morbi non arcu blandit</p>-->
+                                    <p>Graduate Software Engineer</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+                    <!-- Bhanu -->
+                    <div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.8s">
+                        <div class="item-square">
+                            <div class="face">
+                                <!--<img src="assets/img/team-member/team-04.jpg" alt="">-->
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <h3>Bhanu Shankar</h3>
+                                    
+                                </div>
+                                <div class="text">
+                                    <!--<p>Sit amet. consectetur adipiscing elit. Aenean consectetur suscipit viverra Morbi non arcu blandit</p>-->
+                                    <p>Graduate Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sharukh -->
+                    <div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.8s">
+                        <div class="item-square">
+                            <div class="face">
+                                <!--<img src="assets/img/team-member/team-04.jpg" alt="">-->
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <h3>Sharukh</h3>
+                                    
+                                </div>
+                                <div class="text">
+                                    <!--<p>Sit amet. consectetur adipiscing elit. Aenean consectetur suscipit viverra Morbi non arcu blandit</p>-->
+                                    <p>Graduate Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gyan -->
+                    <div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.8s">
+                        <div class="item-square">
+                            <div class="face">
+                                <!--<img src="assets/img/team-member/team-04.jpg" alt="">-->
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <h3>Gyan Prakash</h3>
+                                    
+                                </div>
+                                <div class="text">
+                                    <!--<p>Sit amet. consectetur adipiscing elit. Aenean consectetur suscipit viverra Morbi non arcu blandit</p>-->
+                                    <p>Graduate Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shashikant -->
+                    <div class="col-sm-6 col-md-3 wow flipInY" data-wow-offset="10" data-wow-delay="0.8s">
+                        <div class="item-square">
+                            <div class="face">
+                                <!--<img src="assets/img/team-member/team-04.jpg" alt="">-->
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="content">
+                                <div class="title">
+                                    <h3>Shasikanth</h3>
+                                    
+                                </div>
+                                <div class="text">
+                                    <!--<p>Sit amet. consectetur adipiscing elit. Aenean consectetur suscipit viverra Morbi non arcu blandit</p>-->
+                                    <p>Project Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</section>
+		<!-- End Team Section -->
+		
+		
+		
+		<!-- Start Contact Section -->
+		<section id="contact">
+			<div class="overlay">
+				<div class="container">
+				<h1 class="section-title wow fadeIn" data-wow-delay=".2s"><span>Contact</span> Us</h1>
+					<div class="row">
+						<div class="contact-form">
+							<form role="form" method="post">
+								<div class="col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+										<div class="controls">
+											<input class="contact_input" type="text" name="name" placeholder="Name">
+											<i class="fa fa-user"></i>
+										</div>
+										<div class="controls">
+											<input class="contact_input" type="text" name="Email" placeholder="Email">
+											<i class="fa fa-envelope-o"></i>
+										</div>
+										<div class="controls">
+											<input class="contact_input" type="text" name="Phone" placeholder="Phone">
+											<i class="fa fa-phone"></i>
+										</div>
+								</div>
+								<div class="col-sm-6 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
+										<textarea name="massage" rows="7" class="form-control" placeholder="Message"></textarea>
+								</div>
+								<div class="col-sm-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+									<button type="submit" id="submit" class="btn btn-common">Send</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<!-- End Contact Section -->
+		
+		
+		<!-- Start Connected Section -->
+		<section id="connected">
+			<div class="container">
+				<div class="row">
+					<h2 class="section-title wow fadeInUp" data-wow-delay=".2s">Stay Connected</h2>		
+					<!--<h3 class="discription wow fadeIn" data-wow-delay=".2s">Stay always connected with us.....</h3>-->
+					<!--<hr>-->
+					<div class="connected-wrapper text-center">
+						<!--<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="contact-item">
+								<a href="#"><i class="fa fa-phone"></i></a>
+								<h5>Customer Care</h5>
+								<h4>02214-456789</h4>
+							</div>
+						</div> -->
+						<div class="col-sm-4 col-md-4">
+						</div>
+						
+						<div class="col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="contact-item">
+								<a href="#"><i class="fa fa-user"></i></a>
+								<h5>Support Team</h5>
+								<h4>carpoolingfortesco@gmail.com</h4>
+							</div>
+						</div>
+						
+						<div class="col-sm-4 col-md-4">
+						</div>
+						<!--<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="contact-item">
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<h5>Twitter</h5>
+								<h4>@example.com</h4>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="contact-item">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<h5>Facebook</h5>
+								<h4>example.agency</h4>
+							</div>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Connected Section -->
+
+
+		<!-- Footer Section Start -->
+		<footer id="footer">
+			<div class="container">
+					<div class="copyright text-center">
+						<p>Designed and Developed by <a href="http://rideallytesco.com">RideAlly</a></p>
+					</div>
+			</div>
+		</footer>
+		<!-- Footer Section End -->
+
+		<!-- Scroll Top -->
+		<div class="scroll-top" data-spy="affix" data-offset-top="300">
+			<a href="#header"><i class="fa fa-angle-up"></i></a>
+		</div>
+		<!-- Scroll End -->
+
+		
+		<!-- Include jquery.min.js plugin -->
+
+        <script src="JS/jquery-min.js"></script>
+		<!-- Include Bootstrap plugin -->
+
+        <script src="JS/bootstrap.min.js"></script>
+		<!-- One page Nav plugin -->		
+		<script src="assets/js/jquery.nav.js"></script>
+		<!-- Include Bootstrap plugin -->
+
+        <script src="JS/owl.carousel.js"></script>
+		<!-- Include wow plugin -->
+
+        <script src="JS/wow.js"></script>
+		<!-- Include mixitup plugin -->
+
+        <script src="JS/jquery.mixitup.js"></script>
+		<!-- ScrollTop -->
+
+        <script src="JS/lightbox.min.js"></script>
+		<!-- Lightbox -->
+
+        <script src="JS/scroll-top.js"></script>
+		<!-- Smooth Scroll -->
+
+        <script src="JS/smooth-scroll.js"></script>
+		<!-- preset js -->
+
+        <script src="JS/style.changer.js"></script>
+		<!-- Modernizr js -->
+
+        <script src="JS/modernizr-2.8.0.main.js"></script>
+		<!-- Main js -->
+
+        <script src="JS/main.js"></script>
+
+        <!--Custom scripts-->
+        <script src="JS/Employee/RegEmployee.js"></script>
+        <script src="JS/Employee/login.js"></script>
+
+        <!--Map Scripts-->
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap">
+        </script>
+
+			
+	</body>
+</html>
